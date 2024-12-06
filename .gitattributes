@@ -1,0 +1,1 @@
+reference_genome/Mcap.genome_assembly.fasta filter=lfs diff=lfs merge=lfs -text
