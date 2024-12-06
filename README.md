@@ -15,5 +15,5 @@ ssh your_email@crest-login.tamucc.edu
 # Step 2 - Copying repo
 Copy this repo into your HPC environment
 ```bash
-git@github.com:darmstrong4islander/mcap_rna_seq_2024.git
+git@github.com:darmstrong4islander/Montipora_capitata_ocean_acidifcation_RNA_seq.git
 ```
