@@ -22,3 +22,13 @@ On your local device scp raw reads from a local directory to the HPC directory w
 ```bash
 scp -r "./00_fastq" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/00_fastq
 ```
+# Step 4 - Load modules
+```bash
+module load fastqc               
+module load fastp                
+module load hisat2               
+module load samtools             
+module load stringtie            
+module load gffcompare          
+module load multiqc
+```
