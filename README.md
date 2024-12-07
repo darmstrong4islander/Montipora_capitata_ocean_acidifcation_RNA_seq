@@ -26,11 +26,7 @@ scp -r "./00_fastq" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_
 ```
 # Step 4 - Load modules
 ```bash
-module load fastqc               
 module load fastp                
 module load hisat2               
 module load samtools             
-module load stringtie            
-module load gffcompare          
-module load multiqc
 ```
