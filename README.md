@@ -1,4 +1,4 @@
-# Project Background and Preliminary Steps
+# Project Background 
 This is my repository for the bioinformatic pipeline for the raw reads produced following the RNA-Seq analysis. These data were sent by AZENTA—GeneWiz and will be analyzed using a combination of an HPC with BASH and a local desktop in R Studio.
 
 # About these Data
@@ -20,6 +20,8 @@ git@github.com:darmstrong4islander/Montipora_capitata_ocean_acidifcation_RNA_seq
 # Step 3 - Upload your data from local machine
 On your local device scp raw reads from a local directory to the HPC directory where you copied this repo, you may have to use passcodes specific to you local ssh or HPC ssh keys
 ```bash
+scp -r "./" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
+scp -r "./" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
 scp -r "./00_fastq" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/00_fastq
 ```
 # Step 4 - Load modules
