@@ -20,8 +20,8 @@ git@github.com:darmstrong4islander/Montipora_capitata_ocean_acidifcation_RNA_seq
 # Step 3 - Upload your data from local machine
 On your local device scp raw reads from a local directory to the HPC directory where you copied this repo, you may have to use passcodes specific to you local ssh or HPC ssh keys
 ```bash
-scp -r "./" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
-scp -r "./" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
+scp -r "./Mcap.genome_assembly.fa" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
+scp -r "./Mcap.GFFannotation.putnam.gff" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
 scp -r "./00_fastq" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/00_fastq
 ```
 # Step 4 - Load modules
