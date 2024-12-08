@@ -41,3 +41,9 @@ Run this script which integrates tools on the HPC and in this repo, this should 
 ```bash
 sbatch mcap_rna_cnt.sh
 ```
+
+# Generate count matrices
+Run this script to merge files and create a .csv that can be used in down stream differential gene expression analysis
+```bash
+sbatch data_cleaning_matrix_prep.sh
+```
