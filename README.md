@@ -48,12 +48,11 @@ Run this script to merge files and create a .csv that can be used in down stream
 sbatch data_cleaning_matrix_prep.sh
 ```
 
-# Copy onto local machine
-This code will copy the .csv count matirices and other usful file for DEG downstream analysis produced from the script to your local machine for use in R Studio
+# Run DEG Analysis in R
+Located in the output directory should be a .csv file with a gene count matrix and an R script that will work through this matrix and generate a volcano plot of significnatly differentially expressed genes
 ```bash
-scp your_user@crest-l001:~/Montipora_capitata_ocean_acidifcation_RNA_seq/output/*.csv "C:\"
-scp your_user@crest-l001:~/Montipora_capitata_ocean_acidifcation_RNA_seq/stringtie/stringtie_merged.gtf "C:\"
-scp your_user@crest-l001:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome/Mcap.GFFannotation.putnam.gff "C:\"
-
+cd ~
+cd output
 ```
+In R open this script and run it, your final output should be a .png file of a volcano plot of differentially expressed genes
 
