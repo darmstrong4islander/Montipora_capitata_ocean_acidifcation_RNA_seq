@@ -36,3 +36,8 @@ Run this script, this should populate an output checksum report, and an error fi
 sbatch checksum_file.sh
 ```
 
+# RNA data QC and Alignment
+Run this script which integrates tools on the HPC and in this repo, this should generate preliminary files of count matrices in which we will then merge in the following script
+```bash
+sbatch mcap_rna_cnt.sh
+```
