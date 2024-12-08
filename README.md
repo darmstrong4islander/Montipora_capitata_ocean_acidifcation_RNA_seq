@@ -7,26 +7,32 @@ The coral species Montipora capitata is dominant among Hawaiian reefs and is pre
 # Meta-data
 The raw reads are in the "raw_reads" file in this repo. The sample labeling scheme is as follows: 1-3 are replicates, B and D are treatments (B = acidified and D = ambient), and S is the summer season.
 
-# Step 1 - Accessing the HPC at TAMUCC
+# Accessing the HPC at TAMUCC
 Connect to the Admin wifi and Cisco Anyconnect VPN, then on your local device ssh into the HPC
 ```bash
 ssh your_email@crest-login.tamucc.edu
 ```
-# Step 2 - Copying repo
+# Copying repo
 Copy this repo into your HPC environment
 ```bash
 git@github.com:darmstrong4islander/Montipora_capitata_ocean_acidifcation_RNA_seq.git
 ```
-# Step 3 - Upload your data from local machine
+# Upload your data from local machine
 On your local device scp raw reads from a local directory to the HPC directory where you copied this repo, you may have to use passcodes specific to you local ssh or HPC ssh keys
 ```bash
 scp -r "./Mcap.genome_assembly.fa" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
 scp -r "./Mcap.GFFannotation.putnam.gff" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/reference_genome
 scp -r "./00_fastq" your_user@crest-login.tamucc.edu:~/Montipora_capitata_ocean_acidifcation_RNA_seq/00_fastq
 ```
-# Step 4 - Load modules
+# Load modules
 ```bash
 module load fastp                
 module load hisat2               
 module load samtools             
 ```
+# Verify Checksums 
+Run this script, this should populate an output checksum report, and an error file where any errors that occured when running the scrip will show
+```bash
+sbatch checksum_file.sh
+```
+
