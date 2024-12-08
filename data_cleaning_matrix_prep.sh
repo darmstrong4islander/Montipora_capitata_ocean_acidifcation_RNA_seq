@@ -3,7 +3,7 @@
 # SLURM job script header
 
 #SBATCH -J mcap_data_cleaning                        # Job name
-#SBATCH -e mcap_error_file.err                       # File for job errors
+#SBATCH -e data_cleaning_matrix_prep.err             # File for job errors
 #SBATCH -N 1                                         # Number of nodes
 #SBATCH -n 64                                        # Number of cores
 #SBATCH -p bigmem                                    # Partition to use

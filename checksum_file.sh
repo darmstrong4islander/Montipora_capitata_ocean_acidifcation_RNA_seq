@@ -4,7 +4,7 @@
 # SLURM job script header (for a job submission)
 
 #SBATCH -J mcap_checksum                             # Name of the job
-#SBATCH -e mcap_error_file.err                       # File for job errors
+#SBATCH -e checksum_file.err                         # File for job errors
 #SBATCH -N 1                                         # Number of nodes
 #SBATCH -n 64                                        # Number of cores
 #SBATCH -p normal                                    # Partition to use

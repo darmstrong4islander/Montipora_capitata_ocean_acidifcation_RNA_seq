@@ -2,7 +2,7 @@
 
 # SLURM job script header
 #SBATCH -J mcap_rna_seq                               # Job name
-#SBATCH -e mcap_error_file.err                        # Error file
+#SBATCH -e mcap_rna_cnt.err                           # Error file
 #SBATCH -N 1                                          # Number of nodes
 #SBATCH -n 64                                         # Number of cores
 #SBATCH -p bigmem                                     # Partition for high memory
