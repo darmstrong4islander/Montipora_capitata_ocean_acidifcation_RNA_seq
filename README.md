@@ -51,6 +51,6 @@ sbatch data_cleaning_matrix_prep.sh
 # Copy onto local machine
 This code will copy the .csv count matirices produced from the script to your local machine for use in R Studio
 ```bash
-scp darmstrong4@crest-l001:~/Montipora_capitata_ocean_acidifcation_RNA_seq/output/*.csv "C:\your path\"
+scp your_user@crest-l001:~/Montipora_capitata_ocean_acidifcation_RNA_seq/output/*.csv "C:\your path\"
 ```
 
