@@ -1,0 +1,30 @@
+# gffcompare v0.12.6 | Command line was:
+#gffcompare -r ./reference_genome/Mcap.GFFannotation.putnam.gff -G -o ./stringtie/merged ./stringtie/stringtie_merged.gtf
+#
+
+#= Summary for dataset: ./stringtie/stringtie_merged.gtf 
+#     Query mRNAs :   53875 in   53875 loci  (32277 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   53875 in   53875 loci  (32277 multi-exon)
+# Super-loci w/ reference transcripts:    53875
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |   100.0    |
+        Exon level:   100.0     |   100.0    |
+      Intron level:   100.0     |   100.0    |
+Intron chain level:   100.0     |   100.0    |
+  Transcript level:   100.0     |   100.0    |
+       Locus level:   100.0     |   100.0    |
+
+     Matching intron chains:   32277
+       Matching transcripts:   53875
+              Matching loci:   53875
+
+          Missed exons:       0/224096	(  0.0%)
+           Novel exons:       0/224096	(  0.0%)
+        Missed introns:       0/170221	(  0.0%)
+         Novel introns:       0/170221	(  0.0%)
+           Missed loci:       0/53875	(  0.0%)
+            Novel loci:       0/53875	(  0.0%)
+
+ Total union super-loci across all input datasets: 53875 
+53875 out of 53875 consensus transcripts written in ./stringtie/merged.annotated.gtf (0 discarded as redundant)

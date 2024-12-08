@@ -1,0 +1,27 @@
+Successfully changed to directory: ./00_fastq
+Found checksum files. Starting verification...
+Verifying checksum for: 1BS_R1_001.fastq.gz.md5
+Checksum verified successfully for 1BS_R1_001.fastq.gz.md5.
+Verifying checksum for: 1BS_R2_001.fastq.gz.md5
+Checksum verified successfully for 1BS_R2_001.fastq.gz.md5.
+Verifying checksum for: 1DS_R1_001.fastq.gz.md5
+Checksum verified successfully for 1DS_R1_001.fastq.gz.md5.
+Verifying checksum for: 1DS_R2_001.fastq.gz.md5
+Checksum verified successfully for 1DS_R2_001.fastq.gz.md5.
+Verifying checksum for: 2BS_R1_001.fastq.gz.md5
+Checksum verified successfully for 2BS_R1_001.fastq.gz.md5.
+Verifying checksum for: 2BS_R2_001.fastq.gz.md5
+Checksum verified successfully for 2BS_R2_001.fastq.gz.md5.
+Verifying checksum for: 2DS_R1_001.fastq.gz.md5
+Checksum verified successfully for 2DS_R1_001.fastq.gz.md5.
+Verifying checksum for: 2DS_R2_001.fastq.gz.md5
+Checksum verified successfully for 2DS_R2_001.fastq.gz.md5.
+Verifying checksum for: 3BS_R1_001.fastq.gz.md5
+Checksum verified successfully for 3BS_R1_001.fastq.gz.md5.
+Verifying checksum for: 3BS_R2_001.fastq.gz.md5
+Checksum verified successfully for 3BS_R2_001.fastq.gz.md5.
+Verifying checksum for: 3DS_R1_001.fastq.gz.md5
+Checksum verified successfully for 3DS_R1_001.fastq.gz.md5.
+Verifying checksum for: 3DS_R2_001.fastq.gz.md5
+Checksum verified successfully for 3DS_R2_001.fastq.gz.md5.
+All checksums verified successfully!

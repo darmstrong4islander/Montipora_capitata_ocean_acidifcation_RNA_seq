@@ -1,0 +1,6 @@
+1BS	./stringtie/1BS.gtf
+1DS	./stringtie/1DS.gtf
+2BS	./stringtie/2BS.gtf
+2DS	./stringtie/2DS.gtf
+3BS	./stringtie/3BS.gtf
+3DS	./stringtie/3DS.gtf
