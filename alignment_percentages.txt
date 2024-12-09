@@ -1,0 +1,6 @@
+1BS 57.36% overall alignment rate 
+1DS 39.93% overall alignment rate 
+2BS 54.89% overall alignment rate 
+2DS 54.05% overall alignment rate 
+3BS 41.50% overall alignment rate 
+3DS 49.43% overall alignment rate 
