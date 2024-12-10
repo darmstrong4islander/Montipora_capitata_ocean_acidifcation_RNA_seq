@@ -55,4 +55,5 @@ cd ~
 cd output
 ```
 In R open this script and run it, your final output should be a .png file of a volcano plot of differentially expressed genes
+![volcano_plot_B_vs_D](https://github.com/user-attachments/assets/0f021c11-e378-4cdb-bbea-064a13d910f5)
 
